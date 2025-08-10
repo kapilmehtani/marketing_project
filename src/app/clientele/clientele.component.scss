@@ -1,0 +1,18 @@
+.clientele-img{
+    height: inherit;
+    object-fit: cover;
+    padding: 20px;
+    background-color: var(--light-gray);
+}
+.clientelle-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    .large{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
